@@ -1,7 +1,9 @@
 import React from 'react';
 
+import Layout from '../components/Layout'
 const AboutPage = () =>{
     return (
+        <Layout>
         <div>
             <h1>
                 About Page!
@@ -10,6 +12,7 @@ const AboutPage = () =>{
                 Hello about me!
             </p>
         </div>
+        </Layout>
     )
 }
 
